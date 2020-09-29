@@ -156,7 +156,7 @@ if (defined('ENVIRONMENT'))
 
 /*
  * -------------------------------------------------------------------
- *  Now that we know the path, set the main path constants
+ *  Now that we know the path, set main path constants
  * -------------------------------------------------------------------
  */
 	// The name of THIS file
@@ -166,10 +166,10 @@ if (defined('ENVIRONMENT'))
 	// this global constant is deprecated.
 	define('EXT', '.php');
 
-	// Path to the system folder
+	// Path to system folder
 	define('BASEPATH', str_replace("\\", "/", $system_path));
 
-	// Path to the front controller (this file)
+	// Path to front controller (this file)
 	define('FCPATH', str_replace(SELF, '', __FILE__));
 
 	// Name of the "system folder"
